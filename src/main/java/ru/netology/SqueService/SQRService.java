@@ -2,14 +2,14 @@ package ru.netology.SqueService;
 
 public class SQRService {
 
-    public int calcSqrt(int x, int y) {
+    public int calcSqrt(int min, int max) {
         int count = 0;
-        x = 200;
-        y = 300;
+        min = 200;
+        max = 300;
         int b;
         for (b = 10; b < 100; b++) {
-            if (b * b >= x) {
-                if (b * b <= y) {
+            if (b * b >= min) {
+                if (b * b <= max) {
                     count++;
                 }
             }
