@@ -4,8 +4,6 @@ public class SQRService {
 
     public int calcSqrt(int min, int max) {
         int count = 0;
-        min = 200;
-        max = 300;
         int b;
         for (b = 10; b < 100; b++) {
             if (b * b >= min) {
